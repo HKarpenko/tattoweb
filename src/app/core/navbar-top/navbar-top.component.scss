@@ -1,0 +1,36 @@
+.navbar-top-container {
+  .navbar {
+    height: 10vh;
+  }
+
+  .navbar-brand {
+    margin-top: 3vh;
+    margin-left: 7vw;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+    margin-top: 3vh;
+    margin-right: 7vw;
+
+    .nav-item {
+      margin-left: 3vw;
+      font-size: 17px;
+      font-weight: 500;
+
+      .nav-link {
+        color: aliceblue;
+      }
+
+      .nav-icon {
+        font-size: 24px;
+        margin-top: -6px;
+      }
+
+      .nav-link:hover {
+        color: rgb(165, 168, 171);
+        transition: .7s;
+      }
+    }
+  }
+}
