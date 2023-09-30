@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  --nav-white: #FCF8E8;
+  --white: #ffffff;
+  --beight-light: #F8EDE3;
+  --beige-dark: #B09B71;
+}

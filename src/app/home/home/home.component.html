@@ -1,0 +1,53 @@
+<header class="landing full-screen">
+  <a href="#" class="button">Add Reservation</a>
+</header>
+
+<section class="screen-80 about">
+  <img class="about_photo" src="../../../assets/images/veronique_me.jpg" alt="">
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-place">
+      <div class="footer-place_address">
+        <a class="footer-place_link" 
+          href="https://www.google.com/maps/place/Veronique+tattoo+studio/@51.120457,16.9975118,19z/data=!3m1!4b1!4m6!3m5!1s0x470feb37d7f8672f:0x278255c336862d81!8m2!3d51.1204562!4d16.9981555!16s%2Fg%2F11v9tlz83l?entry=ttu" 
+          target="_blank"
+        >
+          <mat-icon>place</mat-icon>
+          <span>
+            Przedmiejska 4, 54-203 Wrocław
+          </span>
+        </a>
+      </div>
+      <div>
+        <app-map class="map" 
+          [point]="pointCoords" 
+          [center]="mapCenterCoords" 
+          [zoom]="17"
+        >
+        </app-map>
+      </div>
+    </div>
+    <div class="footer-logo-container">
+      <a href="#" (click)="$event.preventDefault();window.scrollTo(0, 0)">
+        <img class="footer-logo" src="../../../assets/logo/veronique_logo.svg" alt="veronique_logo">
+      </a>
+    </div>
+    <div class="footer-links">
+      <div class="footer-link-container">
+        <a href="https://www.instagram.com/veronique_tattoo/" class="footer-link" target="_blank">
+          @veronique_tattoo
+        </a>
+      </div>
+      <div class="footer-link-container">
+        <a href="https://www.instagram.com/veronique_tattoo/" class="footer-link" target="_blank">
+          @veronique_tattoo@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyrights">
+    &copy; 2023 By Veroinque Tattoo
+  </div>
+</footer>

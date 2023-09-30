@@ -1,0 +1,117 @@
+.landing {
+  background-image: url('../../../assets/images/tattoo.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.landing .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--beige-dark);
+  border: var(--beige-dark) 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 40vh;
+}
+
+.landing .button:hover {
+  background: var(--beige-dark);
+  transition: .5s;
+  color: #fff;
+}
+
+.full-screen {
+  height: 100vh;
+}
+
+.screen-80 {
+  height: 80vh;
+}
+
+footer {
+  background: var(--beige-dark);
+  height: 40vh;
+
+  .footer-container {
+    height: 30vh;
+    padding: 2vh 5vh 0 5vh;
+    position: relative;
+
+    .footer-place {
+      color: var(--nav-white);
+      position: absolute;
+      top: 10%;
+
+      &_link {
+        color: inherit;
+      }
+
+      &_address {
+        font-size: 2.5vh;
+        margin-bottom: 1.5vh;
+      }
+
+      .map {
+        height: 30vh;
+        width: 35vw;
+      }
+    }
+
+    .footer-logo-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .footer-logo {
+        height: 24vh;
+      }
+    }
+
+    .footer-links {
+      position: absolute;
+      top: 60%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+    }
+
+    .footer-link {
+      text-decoration: none;
+      font-size: 2.5vh;
+      color: var(--nav-white);
+    }
+
+    .footer-link:hover {
+      color: rgb(32, 34, 36);
+      transition: .5s;
+    }
+
+    .footer-link-container+.footer-link-container {
+      margin-top: 5vh;
+    }
+  }
+
+  .footer-copyrights {
+    height: 10vh;
+    margin-top: -2.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: var(--nav-white);
+  }
+}
+
+.about {
+  background: var(--beight-light);
+  text-align: left;
+
+  &_photo {
+    height: 100%;
+  }
+}

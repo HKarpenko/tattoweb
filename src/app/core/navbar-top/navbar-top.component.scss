@@ -1,16 +1,23 @@
-.navbar-top-container {
+.navbar-top-container {  
   .navbar {
-    height: 10vh;
+    height: 20vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0));
+    z-index: 5;
   }
 
   .navbar-brand {
-    margin-top: 3vh;
     margin-left: 7vw;
+    margin-top: 1vh;
+  }
+
+  .navbar-brand:hover {
+    filter: brightness(0%);
+    transition: .5s;
   }
 
   .navbar-collapse {
     justify-content: flex-end;
-    margin-top: 3vh;
+    margin-top: 1vh;
     margin-right: 7vw;
 
     .nav-item {
@@ -28,8 +35,8 @@
       }
 
       .nav-link:hover {
-        color: rgb(165, 168, 171);
-        transition: .7s;
+        color: rgb(32, 34, 36);
+        transition: .5s;
       }
     }
   }

@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
 import { NavbarTopComponent } from './navbar-top/navbar-top.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    NavbarTopComponent
+    NavbarTopComponent,
+    PageNotFoundComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     NavbarTopComponent
