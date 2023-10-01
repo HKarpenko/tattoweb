@@ -7,5 +7,13 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderSectionComponent {
   @Input() title: string;
+  @Input() imageUrl: string;
 
+  backgroundImg: string;
+  
+  constructor() { }
+
+  ngOnInit(): void  {
+    this.backgroundImg = `url(${this.imageUrl})`;
+  }
 }

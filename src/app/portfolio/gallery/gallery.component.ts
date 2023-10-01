@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Gallery, GalleryItem, ImageItem } from 'ng-gallery';
+import { Gallery } from 'ng-gallery';
 import { Lightbox } from 'ng-gallery/lightbox';
 
 const data = [
