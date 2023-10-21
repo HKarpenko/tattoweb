@@ -4,37 +4,53 @@ import { Lightbox } from 'ng-gallery/lightbox';
 
 const data = [
   {
-    srcUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
-    previewUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
+    srcUrl: '../../../assets/images/works/work_1.jpg',
+    previewUrl: '../../../assets/images/works/work_1.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/kPE1D6/clouds.jpg',
-    previewUrl: 'https://preview.ibb.co/kPE1D6/clouds.jpg',
+    srcUrl: '../../../assets/images/works/work_2.jpg',
+    previewUrl: '../../../assets/images/works/work_2.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg',
-    previewUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg',
+    srcUrl: '../../../assets/images/works/work_3.jpg',
+    previewUrl: '../../../assets/images/works/work_3.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
-    previewUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
+    srcUrl: '../../../assets/images/works/work_4.jpg',
+    previewUrl: '../../../assets/images/works/work_4.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
-    previewUrl: 'https://preview.ibb.co/jrsA6R/img12.jpg',
+    srcUrl: '../../../assets/images/works/work_5.jpg',
+    previewUrl: '../../../assets/images/works/work_5.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/kPE1D6/clouds.jpg',
-    previewUrl: 'https://preview.ibb.co/kPE1D6/clouds.jpg',
+    srcUrl: '../../../assets/images/works/work_6.jpg',
+    previewUrl: '../../../assets/images/works/work_6.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg',
-    previewUrl: 'https://preview.ibb.co/mwsA6R/img7.jpg',
+    srcUrl: '../../../assets/images/works/work_7.jpg',
+    previewUrl: '../../../assets/images/works/work_7.jpg',
   },
   {
-    srcUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
-    previewUrl: 'https://preview.ibb.co/kZGsLm/img8.jpg',
+    srcUrl: '../../../assets/images/works/work_8.jpg',
+    previewUrl: '../../../assets/images/works/work_8.jpg',
   },
+  {
+    srcUrl: '../../../assets/images/works/work_9.jpg',
+    previewUrl: '../../../assets/images/works/work_9.jpg',
+  },
+  {
+    srcUrl: '../../../assets/images/works/work_10.jpg',
+    previewUrl: '../../../assets/images/works/work_10.jpg',
+  },
+  {
+    srcUrl: '../../../assets/images/works/work_11.jpg',
+    previewUrl: '../../../assets/images/works/work_11.jpg',
+  },
+  {
+    srcUrl: '../../../assets/images/works/work_12.jpg',
+    previewUrl: '../../../assets/images/works/work_12.jpg',
+  }
 ];
 
 @Component({

@@ -16,6 +16,10 @@ import { PageNotFoundComponent } from './core/page-not-found/page-not-found.comp
         path: 'portfolio',
         loadChildren: () => import('./portfolio/portfolio.module').then(m => m.PortfolioModule)
       },
+      {
+        path: 'contact',
+        loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)
+      },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
     ])

@@ -1,0 +1,89 @@
+<div class="contact-container">
+  <app-header-section [title]="'Contact'" [imageUrl]="'../../../assets/images/veronique_bali.jpg'">
+  </app-header-section>
+
+  <div class="sections-container">
+    <div class="contact-section">
+      <div class="contact-text-section">
+        <div class="contact-text-section_line">
+          <b><u>Contact Us</u></b>
+        </div>
+        <div class="contact-text-section_line">
+          Phone: +48 574 065 501
+        </div>
+        <br>
+        <div class="contact-text-section_line">
+          <b><u>Studio Address</u></b>
+        </div>
+        <div class="contact-text-section_line">
+          Przedmiejska 4/2
+        </div>
+        <div class="contact-text-section_line">
+          Wrocław, 54-201
+        </div>
+        <br>
+        <div class="contact-text-section_line">
+          <b><u>Opening Hours</u></b>
+        </div>
+        <div class="contact-text-section_line">
+          Monday: Closed
+        </div>
+        <div class="contact-text-section_line">
+          Tuesday - Friday: 11:00am - 6:00pm
+        </div>
+        <div class="contact-text-section_line">
+          Saturday - Sunday: 11:00am - 5:00pm
+        </div>
+        <br>
+        <div class="contact-text-section_line">
+          <b><u>For reservations:</u></b>
+        </div>
+        <div class="contact-text-section_line">
+          <div>Send us an email:</div>
+          <a class="contact-text-section_link" href="mailto:example@example.com">
+            example@example.com
+          </a>
+        </div>
+        <br>
+        <div class="contact-text-section_line">
+          <b><u>Social</u></b>
+        </div>
+        <div class="contact-text-section_line">
+          <a class="contact-text-section_link" href="https://www.facebook.com/veronika.karpenko.52" target="_blank">
+            Studio's Facebook
+          </a>
+        </div>
+        <div class="contact-text-section_line">
+          <a class="contact-text-section_link" href="https://www.instagram.com/veronique_tattoo/" target="_blank">
+            Studio's Instagram
+          </a>
+        </div>
+  
+      </div>
+    </div>
+    <div class="location-section">
+      <div class="location-text-section">
+        <span class="location-text-section_line">
+          <b><u>Location</u></b>
+        </span>
+        <div class="map-container">
+          <app-map class="map" 
+            [point]="pointCoords" 
+            [center]="mapCenterCoords" 
+            [zoom]="17"
+          >
+          </app-map>
+        </div>
+        <div class="location-map-button-container">
+          <a 
+            href="https://www.google.com/maps/place/Veronique+tattoo+studio/@51.120457,16.9975118,19z/data=!3m1!4b1!4m6!3m5!1s0x470feb37d7f8672f:0x278255c336862d81!8m2!3d51.1204562!4d16.9981555!16s%2Fg%2F11v9tlz83l?entry=ttu" 
+            target="_blank"
+            class="location-map-button"
+          >
+            Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

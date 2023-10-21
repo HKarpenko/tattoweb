@@ -7,11 +7,13 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryModule } from 'ng-gallery';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { SharedModule } from '../shared/shared.module';
+import { ImageDialogComponent } from './portfolio/image-dialog/image-dialog.component';
 
 @NgModule({
   declarations: [
     PortfolioComponent,
-    GalleryComponent
+    GalleryComponent,
+    ImageDialogComponent
   ],
   imports: [
     CommonModule,

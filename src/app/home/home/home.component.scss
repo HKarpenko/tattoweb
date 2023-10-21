@@ -36,50 +36,34 @@
 
 footer {
   background: var(--beige-dark);
-  height: 40vh;
+  height: 29vh;
 
   .footer-container {
-    height: 30vh;
+    height: 25vh;
     padding: 2vh 5vh 0 5vh;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     .footer-place {
       color: var(--nav-white);
-      position: absolute;
-      top: 10%;
+      font-size: 2.5vh;
 
       &_link {
         color: inherit;
         text-decoration:none;
       }
-
-      &_address {
-        font-size: 2.5vh;
-        margin-bottom: 1.5vh;
-      }
-
-      .map {
-        height: 30vh;
-        width: 35vw;
-      }
     }
 
     .footer-logo-container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
       .footer-logo {
         height: 24vh;
       }
     }
 
     .footer-links {
-      position: absolute;
-      top: 60%;
-      left: 75%;
-      transform: translate(-50%, -50%);
+      align-items: center;
+      justify-content: center;
     }
 
     .footer-link {
@@ -99,8 +83,7 @@ footer {
   }
 
   .footer-copyrights {
-    height: 10vh;
-    margin-top: -2.2vh;
+    height: 4vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
